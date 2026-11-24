@@ -40,11 +40,11 @@ AirTV marketed the Player as a combined streaming and over-the-air television in
 
 The AirTV Player alone does not contain the OTA tuner described in the marketing material. To receive local broadcast channels, the official product page says users need the AirTV Player, an AirTV Adapter, and an antenna. Local-channel DVR additionally requires an external hard drive. The official product sheet describes single- and dual-tuner adapter options. Availability of ABC, CBS, NBC, FOX, PBS, and other channels depends on antenna reception and location.
 
-## Processor identification: source discrepancy
+## Processor and graphics
 
-The supplied retail-style specification text says **“Processor: Single Core.”** That statement conflicts with multiple independent device references identifying the AirTV Player (model UIW4010ECH) with a **Marvell Armada 1500 Ultra BG4CT**, quad-core 1.2 GHz ARM Cortex-A53 CPU, and Vivante GC7000XS GPU.
+The AirTV Player uses a **quad-core 1.2 GHz ARM Cortex-A53 processor** paired with a **Vivante GC7000XS GPU**. Device references identify the platform as the **Marvell Armada 1500 Ultra BG4CT**.
 
-A launch-era TechSpot review also describes a quad-core Marvell BG4CT SoC. The current project therefore records the single-core field as a likely listing error or unresolved source conflict—not as the established processor specification.
+A supplied retailer-style listing says “Single Core.” That entry conflicts with the quad-core identification in device references and a launch-era TechSpot hardware review, so this project treats “Single Core” as a catalog/listing error rather than the device specification.
 
 References:
 - [Android TV Guide — DISH AirTV Player](https://www.androidtv-guide.com/pay-tv-provider/dish-airtv-player/)

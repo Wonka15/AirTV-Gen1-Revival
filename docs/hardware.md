@@ -42,14 +42,14 @@ The AirTV Player alone does not contain the OTA tuner described in the marketing
 
 ## Processor and graphics
 
-The AirTV Player uses a **quad-core 1.2 GHz ARM Cortex-A53 processor** paired with a **Vivante GC7000XS GPU**. Device references identify the platform as the **Marvell Armada 1500 Ultra BG4CT**.
+The AirTV Player uses a **quad-core 1.2 GHz ARM Cortex-A53 processor** paired with a **Vivante GC7000XS GPU**. Device references identify the platform as the **Marvell Armada 1500 Ultra BG4CT**. Secondary Marvell platform references also associate BG4CT with the chip identifier **88DE3218**. Treat that identifier as a reported platform/chip association until the package marking on this specific AirTV motherboard is photographed and confirmed.
 
 A supplied retailer-style listing says “Single Core.” That entry conflicts with the quad-core identification in device references and a launch-era TechSpot hardware review, so this project treats “Single Core” as a catalog/listing error rather than the device specification.
 
 References:
 - [Android TV Guide — DISH AirTV Player](https://www.androidtv-guide.com/pay-tv-provider/dish-airtv-player/)
 - [TechSpot — AirTV Player and Adapter Review](https://www.techspot.com/review/1451-air-tv/)
-- [DeviWiki — Marvell BG4CT platform references](https://deviwiki.com/wiki/Marvell)
+- [DeviWiki — Marvell BG4CT platform references](https://deviwiki.com/wiki/Marvell)\n- [Lupa.cz — Technicolor Indigo platform context](https://www.lupa.cz/clanky/technicolor-indigo-set-top-box-platform/)
 
 **Verification still required:** read the top marking on the SoC package on this exact motherboard and confirm the device model from its exterior label. The current motherboard photograph does not show a legible SoC marking.
 

@@ -17,6 +17,13 @@ The site is a static HTML/CSS project in `index.html` and `assets/style.css`. It
 
 Distinguish official specifications, third-party reports, direct observations, and hypotheses. Do not publish proprietary firmware, vendor keys, credentials, or copyrighted Sling/AirTV assets. Never connect to unknown board pads or flash firmware without verifying electrical levels and recovery procedures.
 
+
+## Android TV modification research
+
+The first software investigation will preserve the stock Android TV installation and begin with a read-only ADB inventory from macOS. The owner reports that the player is working and remembers Developer Options, but USB debugging is not currently enabled. No ADB connection, root access, custom launcher, or modified firmware has been demonstrated.
+
+See [docs/android-investigation.md](docs/android-investigation.md) for the safe setup checklist, read-only commands, and preservation rules. The initial goal is to identify the exact Android build and installed packages before testing reversible launcher or media-app experiments.
+
 ## License
 
 MIT for original project materials. Third-party firmware, trademarks, and media remain with their respective owners.

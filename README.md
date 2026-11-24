@@ -20,3 +20,16 @@ Distinguish official specifications, third-party reports, direct observations, a
 ## License
 
 MIT for original project materials. Third-party firmware, trademarks, and media remain with their respective owners.
+
+
+## Evidence labels
+
+The website uses consistent evidence labels:
+- **Official** — stated on AirTV's manufacturer product page or product sheet.
+- **Reported** — found in third-party device or platform references; not yet confirmed from this exact unit.
+- **Observed** — visible in supplied photographs or directly inspected hardware.
+- **Untested / Planned** — a research idea that has not been demonstrated on the physical player.
+
+## Project tags
+
+`#AirTVGen1` `#AirTVPlayer` `#MarvellBG4CT` `#88DE3218` `#ARMResearch` `#HardwareRevival` `#AndroidTV` `#OpenHardwareResearch`

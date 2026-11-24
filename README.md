@@ -40,3 +40,10 @@ The website uses consistent evidence labels:
 ## Project tags
 
 `#AirTVGen1` `#AirTVPlayer` `#MarvellBG4CT` `#88DE3218` `#ARMResearch` `#HardwareRevival` `#AndroidTV` `#OpenHardwareResearch`
+
+
+## The Android OS is the main revival challenge
+
+The reported Android TV 7.1.1 software baseline may be the biggest obstacle to using modern apps on otherwise capable hardware. The exact build on the physical unit is still unverified. The project will first audit the stock installation (build fingerprint, Android version, ABI, WebView, storage, and memory), then test a small application shortlist. Newer Android and ARM Linux are separate feasibility investigations, not promised upgrades. No alternative OS, custom firmware, or successful app installation is claimed until tested on the device.
+
+See [docs/os-strategy.md](docs/os-strategy.md) for the staged plan, application compatibility watchlist, evidence requirements, and safety gates.
